@@ -34,7 +34,12 @@ footer {
 		font-weight: 700;
 		margin-bottom: 30px;
 
+		@media(max-width:580px) {
+			font-size: 14px;
+		}
+
 		ul {
+			padding: 0;
 			display: flex;
 			gap: 25px;
 			justify-content: center;
